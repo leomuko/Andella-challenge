@@ -1,5 +1,3 @@
-import sys
-q = '1 2 3 4 5'
 def mini_max():
     a, b, c, d, e = raw_input('Enter 5 spaced integers: ').split()
     a, b, c, d, e = [int(a),int(b),int(c),int(d),int(e)]
