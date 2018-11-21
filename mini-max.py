@@ -9,7 +9,7 @@ def mini_max():
         final = [str(min), str(max)]
         return ' '.join(final)
     except ValueError:
-        print('Please enter 5 variables and ensure they are spaced')
+        print('Please enter 5 numbers and ensure they are spaced')
         return     
 
 
