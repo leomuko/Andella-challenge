@@ -1,6 +1,6 @@
 def mini_max():
     try:
-        a, b, c, d, e = raw_input('Enter 5 spaced integers: ').split()
+        a, b, c, d, e = input('Enter 5 spaced integers: ').split()
         a, b, c, d, e = [int(a),int(b),int(c),int(d),int(e)]    
         numbers = [a,b,c,d,e]
         numbers.sort()
